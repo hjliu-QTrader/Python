@@ -1,4 +1,5 @@
-It took me a while to figure out but it worked! Furthermore, to my pleasant surprise, Yahoo Finance supports HKEX data and it requires the format of xxxx.HK.
+#It took me a while to figure out but it worked! Furthermore, to my pleasant surprise, 
+#Yahoo Finance supports HKEX data and it requires the format of xxxx.HK.
 
 #Credit
 #https://github.com/ranaroussi/fix-yahoo-finance
@@ -45,7 +46,7 @@ data = pdr.get_data_yahoo(
 
             # end date (YYYY-MM-DD / datetime.datetime object)
             # (optional, defaults is Today)
-            end = "2017-04-30",
+            end = "2017-04-30",#
 
             # return a multi-index dataframe
             # (optional, default is Panel, which is deprecated)
