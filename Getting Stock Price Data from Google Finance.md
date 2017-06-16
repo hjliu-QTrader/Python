@@ -12,6 +12,7 @@ Successful run with US stocks. I tried using Yahoo Finance as the source but it 
 #Use "sudo -H" which will prompts for password to obtain admin right to install 
 
 #Code Start
+
 import datetime as dt
 import pandas as pd
 import pandas_datareader.data as web
@@ -21,4 +22,5 @@ end = dt.datetime(2017,6,12)
 
 df = web.DataReader('BABA','google',start,end) #working fine for US Stocks using stock symbols
 print (df.head())
+
 #Code End
