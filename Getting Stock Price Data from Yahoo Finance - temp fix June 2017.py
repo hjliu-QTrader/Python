@@ -26,8 +26,6 @@ print (df.head())
 
 #More information on the package by the author "ranaroussi"
 
-
-
 from pandas_datareader import data as pdr
 import fix_yahoo_finance  # <== that's all it takes :-)
 
