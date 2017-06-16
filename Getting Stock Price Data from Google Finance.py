@@ -23,5 +23,4 @@ end = dt.datetime(2017,6,12)
 df = web.DataReader('BABA','google',start,end) #working fine for US Stocks using stock symbols
 print (df.head())
 
-
 #Code End
