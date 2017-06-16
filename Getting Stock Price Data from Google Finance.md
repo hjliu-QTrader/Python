@@ -14,13 +14,19 @@ Successful run with US stocks. I tried using Yahoo Finance as the source but it 
 #Code Start
 
 import datetime as dt
+
 import pandas as pd
+
 import pandas_datareader.data as web
 
+
 start = dt.datetime(2017,6,1)
+
 end = dt.datetime(2017,6,12)
 
 df = web.DataReader('BABA','google',start,end) #working fine for US Stocks using stock symbols
+
 print (df.head())
+
 
 #Code End
