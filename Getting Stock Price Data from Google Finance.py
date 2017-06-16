@@ -1,4 +1,9 @@
-# Successful run with US stocks. I tried using Yahoo Finance as the source but it didn't work, likely because Yahoo has changed its URL for data downloading. I also tried to use the codes below to obtain HKEX stocks but was not successful - turned out that google does not support HKEX after I spent 2 hours researching.... Guess that I have to continue researching...
+# 2017-06-13
+# Successful run with US stocks. I tried using Yahoo Finance as the source but it didn't work, 
+# likely because Yahoo has changed its API for data downloading. 
+# I also tried to use the codes below to obtain HKEX stocks but was not successful 
+# turned out that google does not support HKEX after I spent 2 hours researching.... 
+# Guess that I have to continue researching...
 
 #Credit 
 # * https://www.youtube.com/watch?v=2BrpKpWwT2A
